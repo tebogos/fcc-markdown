@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  text-align: left;
+  /*margin-left: 20px;*/
+  flex-direction: row;
+  /*width: 1200px;*/
+  justify-content:flex-start;
+  align-items:stretch;
+
+}
+.output-text{
+  margin-top: 0px;
+
+  background-color: #fff;
+ flex:2;
+
+}
+.input-text{
+  margin-top: 0px;
+  flex: 1;
+
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
